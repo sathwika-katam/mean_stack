@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+#mainContainer{
+   padding-left: 25em;
+   margin-right: 25em; 
+}
+#header{
+ margin-top: 100px;
+ background-color:darkgreen;
+}
+
+.top-bottom{
+border: 4px ridge red;
+color: whitesmoke ;
+
+}
+.mainContent{
+    background-color: goldenrod;
+    padding:50px 0px 50px 25px;
+}
+
+#Footer{
+    background-color:olivedrab;
+}
+
+#content{
+   font-size: 25px; 
+   color:whitesmoke;  
+}
+
