@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
+</head>
+<style>
+  .content{
+    border: 5px solid red;
+    margin:15px 15px 15px 15px;
+
+  }
+  #blog-items{
+    display: flex;
+    align-items: flex-start;  
+    flex-direction:  row;
+    flex-wrap:  wrap;
+  }
+
+</style>
+
+<body>
+    <div class="container">
+        <div>
+          <div class="form-group">
+            <label for="title">Blog title:</label>
+            <input type="text" class="form-control" id="title">
+          </div>
+          <div class="form-group">
+            <label for="title">Add Image</label>
+            <input type="text" class="form-control" id="image">
+        </div>
+          <div class="form-group">          
+            <label for="exampleFormControlTextarea2">Post a Blog</label>
+            <textarea class="form-control rounded-0" id="blog_text" rows="3"></textarea>
+          </div> 
+          <button type="submit" class="btn btn-default" onclick="onFormSubmit()" >Submit</button>
+          <button type="reset" class="btn btn-default" onclick="resetData()" >Reset</button>
+        </div>
+        
+       <div class="card" id="blog-items" class="flex-container"></div>      
+    </div>   
+</body>
+<script src="myBlog.js"></script>
+</html>  
