@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="checkout.js"></script>
+    <script>
+        function checkOut(){
+            retrievefromSession();
+        }
+    </script>
+</head>
+<body onload="checkOut();">
+    <div>Shopping Cart Checkout</div>
+    <table id="shopping">
+        <thead>
+
+            <tr> 
+                <th>Item Name</th> 
+                <th>price</th>  
+            </tr> 
+            
+        </thead>
+         <tbody>
+            
+        </tbody>
+    </table>
+    <p id="totalPrice"></p>
+    <a href="index.html">back</a>
+</body>
+</html>
