@@ -1,0 +1,55 @@
+[{
+    "id": 1,
+    "question": "What is the capital of Telangana?",
+    "a": "Hyderabad",
+    "b": "Warangal",
+    "c": "Vijayawada",
+    "d": "Guntur",
+    "answer": "a"
+},
+{
+    "id": 2,
+    "question": "What is the capital of Andhra Pradesh?",
+    "a": "Vijayawada",
+    "b": "Hanamkonda",
+    "c": "Visakapattanam",
+    "d": "Nellore",
+    "answer": "c"
+},
+{
+    "id": 3,
+    "question": "What is the capital of Thamilanadu?",
+    "a": "New Delhi",
+    "b": "Chennai",
+    "c": "Hyderabad",
+    "d": "Vishakapattanm",
+    "answer": "b"
+},
+{
+    "id": 4,
+    "question": "What is the capital of Karnataka?",
+    "a": "New Delhi",
+    "b": "Vijayawad",
+    "c": "Hyderabad",
+    "d": "Bangaloor",
+    "answer": "d"
+},
+{
+    "id": 5,
+    "question": "What is the capital of Kerala?",
+    "a": "New Delhi",
+    "b": "Vijayawad",
+    "c": "Thiruvanthapuram",
+    "d": "Vishakapattanm",
+    "answer": "c"
+},
+{
+    "id": 6,
+    "question": "What is the capital of India?",
+    "a": "New Delhi",
+    "b": "Vijayawad",
+    "c": "Hyderabad",
+    "d": "Vishakapattanm",
+    "answer": "a"
+}
+]
